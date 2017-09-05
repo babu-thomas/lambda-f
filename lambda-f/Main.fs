@@ -5,8 +5,8 @@
     Steps -
     1. Write grammar for the lambda calculus   
         
-        <expression> := <name> | <function> | <application>
-        <name> := /[a-z]+/ (lowercase alphabets)
+        <expression> := <identifier> | <function> | <application>
+        <identifier> := /[a-z]+/ (lowercase alphabets)
         <function> := '\' <name> '.' <expression>
         <application> := <function> <expression>
  
