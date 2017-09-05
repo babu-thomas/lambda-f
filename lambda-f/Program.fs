@@ -1,7 +1,22 @@
-﻿// Learn more about F# at http://fsharp.org
-// See the 'F# Tutorial' project for more help.
+﻿// An interpreter for the lambda calculus
+
+(*
+    Goal - Interpret this expression - \x.x.y
+    Steps -
+    1. Write grammar for the lambda calculus   
+        
+        <expression> := <name> | <function> | <application>
+        <name> := /[a-z]+/ (lowercase alphabets)
+        <function> := '\' <name> '.' <expression>
+        <application> := <function> <expression>
+ 
+    2. Lex
+    3. Parse
+    4. Execute (??)
+    5. Profit
+*)
 
 [<EntryPoint>]
 let main argv = 
     printfn "Hello World!"
-    0 // return an integer exit code
+    0
