@@ -3,7 +3,7 @@
 (*
     Goal - Interpret this expression - \x.x.y
     Steps -
-    1. Write grammar for the lambda calculus   
+    1. Write grammar for the lambda calculus
         
         <expression> := <identifier> | <function> | <application>
         <identifier> := /[a-z]+/ (lowercase alphabets)

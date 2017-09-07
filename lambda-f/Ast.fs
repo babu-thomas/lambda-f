@@ -2,7 +2,7 @@
     Grammar -
         <expression> := <identifier> | <function> | <application>
         <identifier> := /[a-z]+/ (lowercase alphabets)
-        <function> := '\' <name> '.' <expression>
+        <function> := '\' <identifier> '.' <expression>
         <application> := <function> <expression>
 *)
 
